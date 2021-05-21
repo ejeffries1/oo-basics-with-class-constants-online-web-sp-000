@@ -13,9 +13,4 @@ BRANDS = []
     puts "Your shoe is as good as new!"
   end
   
-  def unique
-    BRANDS.each do |brand|
-      brand.uniq
-    end
-  end
 end
