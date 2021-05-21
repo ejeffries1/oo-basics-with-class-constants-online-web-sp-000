@@ -5,8 +5,9 @@ class Shoe
 BRANDS = []
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
-    BRANDS.uniq
+    if BRANDS.include?(brand)
+      BRANDS << brand
+    end
   end
 
   def cobble
