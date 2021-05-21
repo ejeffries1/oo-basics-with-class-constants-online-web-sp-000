@@ -15,7 +15,7 @@ BRANDS = []
   
   def unique
     BRANDS.each do |brand|
-      brand
+      brand.uniq
     end
   end
 end
